@@ -21,7 +21,7 @@ body {
   color: white;
   font-size: 20px;
 padding:0px;
-  margin:0;
+  margin:20px;
   margin: bottom 5px;
 }
 /* Menu */
@@ -84,7 +84,7 @@ padding:0px;
   width: 50px; 
   height: 21px; 
   cursor: pointer;
-  margin-left: 450px;
+  margin-left: 250px;
 }
 
 .line {
@@ -188,7 +188,7 @@ padding:0px;
 }
 
 .textandcheckbox {
-  max-width: 50%;
+  max-width: 100%;
   text-align: left;
   margin-bottom:0px;
 }
@@ -199,12 +199,6 @@ padding:0px;
   margin-top: -10px;
 }
 
-
-
-/* Move the button up */
-.get1 {
-  margin-top: -10px;
-}
 
 
 
@@ -273,7 +267,7 @@ padding:0px;
 }
 
 .card {
-  width: 700px; 
+  width:100%; 
   height: auto; 
   margin-right: 100px;
 }
@@ -307,7 +301,7 @@ padding:0px;
 /* Empowering Section */
 .Empowering {
   text-align: left;
-  padding-left:80px;
+  padding-left:20px;
   margin-top: 50px;
 }
 
@@ -325,7 +319,7 @@ padding:0px;
 }
 .texttitle{
   display: flex;
-  gap:450px ;
+  gap:250px ;
 }
 
 .you{
@@ -336,6 +330,7 @@ padding:0px;
 .peace, .transparent, .business, .international {
   background-color: #ffffff;
   padding: 20px;
+  border-radius: 30px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
@@ -343,10 +338,11 @@ padding:0px;
 .peace:hover, .transparent:hover, .business:hover, .international:hover {
   transform: translateY(-5px);
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  border-radius: 30px;
 }
 
 .peace{
-margin-left: 280px;
+margin-left: 40px;
 }
 
 
@@ -575,7 +571,7 @@ label {
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 20px;
   max-width: 1500px;
-  margin-left: 150px;
+  margin-left: 40px;
   padding: 20px;
 }
 
@@ -666,7 +662,7 @@ label {
   display: flex;
   gap: 300px;
   align-items: flex-start;
-  margin-left: 200px;
+  margin-left: 40px;
   padding: 20px;
   width: 1200px;
 }
@@ -761,7 +757,7 @@ margin: 10px;
 .fewsteps{
   display: flex;
   margin-top: 50px;
-  margin-left: 300px;
+  margin-left: 40px;
   margin-right: 100px;
   gap: 300px;
 }
@@ -841,8 +837,9 @@ margin: 10px;
 .manstanding{
   display: flex;
   background-color: white;
-  max-width: 1400px;
-  margin-left: 100px;
+  max-width: 100%;
+  margin-left: 40px;
+  height: 650px;
 }
 .globaltext{
   flex-direction: column;
@@ -948,7 +945,7 @@ margin: 10px;
 .containerfaster{
   background-color: black;
   max-width: 1400px;
-  margin-left: 100px;
+  margin-left: 40px;
   border-radius: 20px;
   height: 350px;
   margin-top: 130px;
@@ -1015,7 +1012,7 @@ padding-top: 20px;
 display: flex;
 gap: 150px;
 padding: 30px;
-margin-left: 150px;
+margin-left: 40px;
 font-size:15px ;
 }
 .s1,.o1,.res1,.blo1{
