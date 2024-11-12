@@ -1,0 +1,1026 @@
+
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f6f4e9;
+  color: #333;
+}
+.logo-container {
+  display: flex;
+  align-items: center; 
+}
+.finovo{
+  display: inline;
+  color: white;
+  font-size: 20px;
+padding:0px;
+  margin:0;
+  margin: bottom 5px;
+}
+/* Menu */
+.menu {
+  display: flex;
+  background-color: #000204;
+  gap: 100px;
+  align-items: center;
+}
+
+.menu li {
+  list-style: none;
+  position: relative;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  padding: 10px 15px;
+  display: inline-block;
+}
+
+.menu li a:hover {
+  background-color: #4656e8;
+  border-radius: 5px;
+}
+
+/* Dropdown */
+.dropdown:hover .submenu {
+  display: block;
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+  background-color: #1275d9;
+  list-style: none;
+  padding: 10px 0;
+  min-width: 150px;
+  top: 100%;
+  left: 0;
+  z-index: 10;
+}
+
+.submenu li a {
+  padding: 10px 20px;
+  color: white;
+}
+
+.submenu li a:hover {
+  background-color: #2c3e50;
+}
+
+/* Hamburger Menu Styles */
+.hamburger-menu {
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50px; 
+  height: 21px; 
+  cursor: pointer;
+  margin-left: 450px;
+}
+
+.line {
+  width: 100%;
+  height: 4px; 
+  background-color: #ea9a12; 
+  border-radius: 5px; 
+}
+
+
+
+/* Flex container for the checkboxes and text */
+.checkbox {
+  display: flex;
+  gap: 20px;
+  align-items: center; 
+}
+
+/* Style each label (checkbox and its text) */
+.checkbox label {
+  display: flex; 
+  align-items: center; 
+}
+
+/* Hide the default checkbox */
+.checkbox input[type="checkbox"] {
+  display: none;
+}
+
+/* Flex container for the checkboxes and text */
+.checkbox {
+  display: flex; 
+  gap: 20px; 
+  align-items: center; 
+  margin-top: 40px;
+}
+
+/* Style each label (checkbox and its text) */
+.checkbox label {
+  display: flex; 
+  align-items: center; 
+}
+
+/* Style for the checkmark circle */
+.checkmark-circle {
+  width: 25px;
+  height: 25px;
+  border:2px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  cursor: pointer;
+  background-color: #d5d5d1;
+}
+
+/* Checkmark inside the circle */
+.checkmark {
+  font-size: 18px;
+  color: #e6e311;
+  display: none; 
+}
+
+/* Show the checkmark when the checkbox is checked */
+.checkmark-input:checked + .checkmark-circle .checkmark {
+  display: block;
+}
+
+/* Optional: Style for the text */
+.checkbox span {
+  font-size: 1rem;
+  color: #f9f5f5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Main Section Styling */
+.Mainscreen {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  padding: 10px 5px;
+  color: white;
+}
+
+.textandcheckbox {
+  max-width: 50%;
+  text-align: left;
+  margin-bottom:0px;
+}
+
+
+/* Move the button up */
+.get1 {
+  margin-top: -10px;
+}
+
+
+
+/* Move the button up */
+.get1 {
+  margin-top: -10px;
+}
+
+
+
+.Mainscreen p {
+  font-size: 2 rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.Mainscreen button.get1 {
+  background-color:yellow;
+  color: rgb(0, 0, 0);
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+
+.Mainscreen button.get1:hover {
+  background-color: #2980b9;
+}
+
+/* Checkbox Styling */
+.checkbox label {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.checkmark-circle {
+  width: 25px;
+  height: 25px;
+  border: 2px solid #ded111;
+  border-radius: 50%;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.checkmark {
+  font-size: 18px;
+  color: #3498db;
+  display: none;
+}
+
+.checkmark-input:checked + .checkmark-circle .checkmark {
+  display: block;
+}
+
+.checkbox-text {
+  font-size: 1rem;
+  color: #333;
+  margin-top: 20px;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column; 
+  align-items: flex-start; 
+  text-align:right;  
+}
+
+.card {
+  width: 700px; 
+  height: auto; 
+  margin-right: 100px;
+}
+
+.find-container {
+  margin-top:0px; 
+  margin-bottom: 0px;
+  margin-left: 470px;
+}
+
+.Find {
+  color: white;
+  font-size: 14px;
+  display: flex;
+  align-items: center; 
+}
+
+.down-arrow {
+  font-size: 20px;
+  margin-right: 10px;  
+}
+
+
+
+
+
+
+
+
+
+/* Empowering Section */
+.Empowering {
+  text-align: left;
+  padding-left:80px;
+  margin-top: 50px;
+}
+
+.Empowering h1 {
+  font-size:60px;
+  font-weight: bold;
+  margin: 4px;
+}
+
+.you p {
+  font-size: 22px;
+  margin: 7px;
+  padding: 2px;
+  margin-right: 50px;
+}
+.texttitle{
+  display: flex;
+  gap:450px ;
+}
+
+.you{
+  margin-top: 50px;
+}
+
+
+.peace, .transparent, .business, .international {
+  background-color: #ffffff;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.peace:hover, .transparent:hover, .business:hover, .international:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.peace{
+margin-left: 280px;
+}
+
+
+
+
+
+
+/* Logos Section */
+.logosall {
+  display: flex;
+  margin-top: 50px;
+  padding: 90 20px;
+  gap: 40px;
+}
+
+.logo-item {
+  width: 200px;
+  text-align: center;
+  padding: 15px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo-item img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 15px;
+}
+
+.logo-item p {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.logo-item a {
+  text-decoration: none;
+  color: #000204;
+  font-weight: 600;
+}
+
+.logo-item a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+  .menu {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .menu li {
+    width: 100%;
+    text-align: left;
+  }
+
+  .submenu {
+    min-width: 100%;
+  }
+
+  .logosall {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logo-item {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+
+  .Empowering h1 {
+    font-size: 2rem;
+  }
+
+  .Mainscreen {
+    padding: 50px 20px;
+  }
+
+  .textandcheckbox p {
+    font-size: 1.5rem;
+  }
+}
+
+
+/* Main Container */
+.container-text-checkbox {
+  display: flex;
+  gap: 350px;
+  padding: 30px;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 1450px;
+  margin: 0 auto;
+  align-items: flex-start;
+  margin-top: 40px;
+}
+
+/* Text Section */
+.text-checkbox-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 500px;
+}
+
+.textneed {
+  font-size: 38px;
+  font-weight: bold;
+  color: #333;
+  line-height: 1.2;
+}
+
+.textlet {
+  font-size: 18px;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* Checkbox Section */
+.allsecond {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.checksin {
+  display: flex;
+  align-items: center;
+}
+
+.checkmark-circle {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 12px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.checkmark {
+  display: none;
+  color: rgb(244, 241, 241);
+  font-size: 14px;
+}
+
+.checkmark-input {
+  display: none;
+}
+
+.checkmark-input:checked + .checkmark-circle {
+  background-color: #2247d8;
+  border-color: #2247d8;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+.checkmark-input:checked + .checkmark-circle .checkmark {
+  display: inline;
+}
+
+.checkmark-text {
+  font-size: 18px;
+  color: #333;
+}
+
+/* Button */
+.seehow {
+  width: 160px;
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  background-color: #f0d109;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.seehow:hover {
+  background-color: #1a3ba8;
+}
+
+/* Image Section */
+.image2 img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Solutions Section */
+.solutions {
+  text-align: center;
+  font-size: 28px;
+  color: #000103;
+  font-weight: bold;
+  padding-top: 30px;
+}
+
+label {
+  display: flex;
+  align-items: center;
+}
+
+
+
+
+/* Container styling for the grid */
+.feature-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  max-width: 1500px;
+  margin-left: 150px;
+  padding: 20px;
+}
+
+/* Individual feature card styling */
+.feature-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  width: 240px;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.feature-card img {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 15px;
+  margin-right: 150px;
+}
+
+.feature-card p:first-of-type {
+  font-size: 20px;
+  font-weight: bold;
+  color: #000106;
+  margin-bottom: 10px;
+  margin-right: 50px;
+}
+
+.feature-card p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.4;
+  margin-right:10px;
+}
+
+.feature-card a {
+  display: inline-block;
+  margin-top: 15px;
+  color: #000208;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.feature-card a:hover {
+  color: #1a3ba8;
+}
+
+
+.imagemaria{
+  max-width: 600px;
+}
+
+
+
+
+
+
+
+
+
+/* Button styling */
+.download-button {
+  margin-top: 20px;
+  padding: 25px;
+  font-size: 16px;
+  color: #0a0000;
+  background-color: #f1ae04;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 200px;
+}
+
+.download-button:hover {
+  background-color: #2ea808;
+}
+
+/* Main container styling for Flexbox layout */
+.maria {
+  display: flex;
+  gap: 300px;
+  align-items: flex-start;
+  margin-left: 200px;
+  padding: 20px;
+  width: 1200px;
+}
+
+/* Image container styling */
+.app-image img {
+  width: 400px;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Text and checkmark column styling */
+.app-details {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 800px;
+}
+
+/* Main text styling */
+.app-text p:first-of-type {
+  font-size: 24px;
+  font-weight: bold;
+  color: #000104;
+  margin-bottom: 5px;
+
+}
+
+.app-text p:nth-of-type(2) {
+  font-size: 24px;
+  font-weight: bold;
+  color: #00020a;
+  margin-top: 5px;
+}
+
+.app-text p:last-of-type {
+  font-size: 16px;
+  color: #555;
+margin: 10px;
+}
+
+/* Checkmarks container styling */
+.checkmarks label {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 16px;
+  color: #01bd39;
+  margin: 10px;
+}
+
+/* Hide default checkbox */
+.checkmark-input {
+  display: none;
+}
+
+/* Checkmark circle styling */
+.checkmark-circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid #04d107;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+/* Checkmark symbol styling */
+.checkmark {
+  display: none;
+  color: white;
+  font-size: 14px;
+}
+
+/* Checked state for checkmark */
+.checkmark-input:checked + .checkmark-circle {
+  background-color: #2247d8;
+  border-color: #0bdf4e;
+}
+
+.checkmark-input:checked + .checkmark-circle .checkmark {
+  display: inline;
+}
+
+
+
+
+
+/* justfew steps css */
+.fewsteps{
+  display: flex;
+  margin-top: 50px;
+  margin-left: 300px;
+  margin-right: 100px;
+  gap: 300px;
+}
+.just{
+  font-size: 50px;
+  font-weight: bold;
+  font-style:arial;
+}
+
+.textyou{
+  font-style:italic ;
+}
+
+
+/* afterjust steps css */
+.afterjust {
+  display: flex;
+  gap: 60px;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Individual step card styling */
+.step-card {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  padding: 20px;
+  width: 260px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.step-card:hover {
+  transform: translateY(-5px);
+}
+
+.step-card img {
+  width: 40px;
+  height: auto;
+  margin-bottom: 15px;
+  margin-right: 100px;
+}
+
+.step-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #000000;
+  margin: 10px 0 5px;
+}
+
+.step-text {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  .afterjust {
+      flex-direction: column;
+      align-items: center;
+  }
+  
+  .step-card {
+      width: 90%;
+      max-width: 300px;
+  }
+}
+
+
+
+/*man standing*/
+.manstanding{
+  display: flex;
+  background-color: white;
+  max-width: 1400px;
+  margin-left: 100px;
+}
+.globaltext{
+  flex-direction: column;
+  max-width: 500px;
+  margin-left: 300px;
+}
+
+.man1{
+  margin-left: 150px;
+}
+
+.globalcustomers{
+  font-size: 50px;
+  font-weight: bold;
+  margin-top: 60px;
+}
+.trans,.save,.service,.business1{
+  font: size 14px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  gap: 10px;
+
+}
+
+.trans{
+  margin-top: 40px;
+}
+.business1{
+  margin-bottom: 30px;
+}
+
+.benson{
+  margin-top: 20px;
+}
+.bensonp1{
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 25px;
+}
+
+
+
+
+
+/* Navigation button container */
+.navigation-buttons {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  gap: 5px;
+}
+
+
+
+
+
+/* Container for navigation buttons */
+.navigation-signs {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  gap: 5px;
+}
+
+
+/* Container for navigation buttons */
+.navigation-signs {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  gap: 20px;
+}
+
+/* Button styling for circular shape */
+.sign-button {
+  background-color: #f9f5f4;
+  color: #0a0000;
+  font-size: 24px; 
+  font-weight: bold;
+  width: 30px; 
+  height: 30px;
+  border-color:orange;
+  border-radius: 50%; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect */
+.sign-button:hover {
+  background-color: #1a36a6;
+}
+
+
+
+
+
+
+
+/* faster */
+.containerfaster{
+  background-color: black;
+  max-width: 1400px;
+  margin-left: 100px;
+  border-radius: 20px;
+  height: 350px;
+  margin-top: 130px;
+}
+.faster1{
+  font-weight: bold;
+  font-size: 40px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+padding-top: 20px;
+  height: 150px;
+}
+
+.faster{
+  margin-left: 400px;
+  margin-top: 20px;
+  color: white;
+}
+
+.cross{
+  margin-left: 350px;
+  color: white;
+
+}
+
+.add,.you1{
+  color: white;
+}
+.add{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 400px;
+}
+.you1{
+  margin-left: 420px;
+}
+
+
+
+.get2{
+  margin-top: 20px;
+  margin-left: 550px;
+  width:150px;
+  height: 60px;
+  background-color: yellow;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+/* elements */
+.framefinovo{
+  display: flex;
+  flex-direction:column ;
+  height: 150px;
+}
+.elements{
+display: flex;
+gap: 150px;
+padding: 30px;
+margin-left: 150px;
+font-size:15px ;
+}
+.s1,.o1,.res1,.blo1{
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 5px;
+
+}
