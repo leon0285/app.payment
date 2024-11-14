@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  align-items: center;
 }
 
 /* Body Styling */
@@ -11,7 +12,15 @@ body {
   font-family: 'Arial', sans-serif;
   background-color: #f6f4e9;
   color: #333;
+  margin: 0 auto;       /* Centers the body content */
+  max-width: 1400px;     /* Sets a maximum width for content */
+  padding: 20px;        /* Adds padding for spacing */
+  line-height: 1.6;     /* Improves readability by spacing lines */
 }
+
+
+  
+
 .logo-container {
   display: flex;
   align-items: center; 
