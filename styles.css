@@ -39,6 +39,7 @@ padding:0px;
   background-color: #000204;
   gap: 100px;
   align-items: center;
+  padding-left: 40px;
 }
 
 .menu li {
@@ -184,8 +185,6 @@ padding:0px;
 
 
 
-
-
 /* Main Section Styling */
 .Mainscreen {
   display: flex;
@@ -200,6 +199,7 @@ padding:0px;
   max-width: 100%;
   text-align: left;
   margin-bottom:0px;
+  margin-left: 40px;
 }
 
 
@@ -329,6 +329,7 @@ padding:0px;
 .texttitle{
   display: flex;
   gap:250px ;
+  padding-left: 40px;
 }
 
 .you{
@@ -360,6 +361,11 @@ margin-left: 40px;
 
 
 /* Logos Section */
+
+.logosall{
+  padding-left: 40px;
+}
+
 .logosall {
   display: flex;
   margin-top: 50px;
@@ -713,6 +719,10 @@ label {
 margin: 10px;
 }
 
+.checkmarks{
+  margin-right: 90px;
+}
+
 /* Checkmarks container styling */
 .checkmarks label {
   display: flex;
@@ -766,18 +776,19 @@ margin: 10px;
 .fewsteps{
   display: flex;
   margin-top: 50px;
-  margin-left: 40px;
-  margin-right: 100px;
-  gap: 300px;
+  margin-left: 60px;
+  gap: 400px;
 }
 .just{
   font-size: 50px;
   font-weight: bold;
   font-style:arial;
+  margin-left: 50px;
 }
 
 .textyou{
   font-style:italic ;
+
 }
 
 
@@ -853,7 +864,7 @@ margin: 10px;
 .globaltext{
   flex-direction: column;
   max-width: 500px;
-  margin-left: 300px;
+  margin-left:200px;
 }
 
 .man1{
